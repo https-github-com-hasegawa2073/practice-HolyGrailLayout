@@ -26,5 +26,11 @@ footer {
 
 @media screen and (max-width: 1000px) {
   body {
+    grid-template:
+      'header' 150px
+      'center' 1fr
+      'left  '
+      'right '
+      'footer' 300px;
   }
 }
